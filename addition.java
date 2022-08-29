@@ -13,6 +13,6 @@ public class addition
         System.out.println("enter second number:");
         b=sr.nextInt();
 
-        System.out.println("sum is "+(a+b));
+        System.out.println("sum of two numbers is: "+(a+b));
     }
 }
