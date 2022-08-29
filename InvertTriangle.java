@@ -2,17 +2,24 @@ import java.util.Scanner;
 
 public class InvertTriangle {
     public static void main(String args[]) {
-        int i, j, n;
+        int r,c,s;
+        int n;
         Scanner sr = new Scanner(System.in);
         System.out.println("enter n value:");
         n = sr.nextInt();
-        for (i = n; i >= 1; i--)
+        for(r=n;r>=1;r--)
         {
-            for (j = 1; j <= i; j++)
+            for(s=n;s>=r;s--)
+                System.out.print(" ");
+            for(c=1;c<=r;c++)
             {
-                System.out.print("*");
+                if(c==1||c==r||r==n)
+                    System.out.print("* ");
+                else
+                    System.out.print("* ");
+
             }
-        System.out.println();
+            System.out.print("\n");
         }
     }
 }
