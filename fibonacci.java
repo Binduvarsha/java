@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class fibonacci
@@ -9,12 +8,12 @@ public class fibonacci
         Scanner sr=new Scanner(System.in);
         System.out.println("enter n value:");
         n=sr.nextInt();
-        System.out.println(a);
-        System.out.println(b);
+        System.out.print(a+" ");
+        System.out.print(b+" ");
         for(i=0;i<n-2;i++)
         {
             c=a+b;
-            System.out.print(c+"\n");
+            System.out.print(c+" ");
             a=b;
             b=c;
             c=a+b;
